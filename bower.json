@@ -1,0 +1,23 @@
+{
+  "name": "npmtest1",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Marius Talpos <andreitalpos@yahoo.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./js/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
