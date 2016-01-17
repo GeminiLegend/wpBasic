@@ -1,1 +1,77 @@
-body { background: green; }
+@import 'partials/fonts.scss';
+@import 'partials/colors.scss';
+@import 'partials/reset.scss';
+
+.navbar{
+	background: #1a1a1a;
+	clear: right;
+	position: relative;
+	height: 115px;
+	width: 100%;
+}
+
+.websitename {
+	float: left;
+    background: #666666;
+    border-radius: 0px 15px 15px 15px;
+    margin: 0px;
+	display: inline;
+	font: bold 50px Lora;
+	color: #00cc00;
+	margin: 0px 0px;
+	padding: 25px 25px;
+}
+
+.navfloatright {
+	float: right;
+}
+
+.navbuttons {
+	font: 25px Lora;
+	color: #e68900;
+	margin: 30px 10px 0px 10px;
+	padding: 10px;
+	background: #666666;
+	border-radius: 15px;
+}
+
+.noliststyle {
+	list-style: none;
+}
+
+.showcase {
+	display: block;
+	clear: left;
+	background: #000000;
+	height: 625px;
+	& .showcasehead {
+		color: #e68900;
+		font: 35px Lora;
+		padding: 50px 0px 30px 60px;
+		}
+	}
+
+#slider {
+	float: right;
+	width: 50%;
+	height: 50%;
+	margin: 50px 0 0 20px;
+}
+
+.showcasetext {
+	color: #e68900;
+	font: 15px Lora;
+	padding: 20px 0px 30px 100px;
+}
+
+/*.showcase {
+	font: 35px Lora;
+	color: #cccccc;
+}
+*/
+
+/*.showcase {
+	font: 15px Lora;
+	color: #e68900;
+}
+*/
