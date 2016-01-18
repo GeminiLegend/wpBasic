@@ -24,15 +24,12 @@
 			<?php 
 				$args =  array(
 					'theme_location' => 'nav-menu',
-
+					'container' => false,
+					'menu_class' => 'noliststyle',
+					'menu_id' => 'nav'
 				);
 				wp_nav_menu($args);
 			?>
-			<ul class=' noliststyle'>
-				<a href="#"><li class='navfloatright navbuttons'>Bio</li></a>
-				<a href="#"><li class='navfloatright navbuttons'>Resume</li></a>
-				<a href="#"><li class='navfloatright navbuttons'>Contact</li></a>
-			</ul>		
 		</div>
 		<div class='showcase'>
 			<div id='slider'>

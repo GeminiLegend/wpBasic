@@ -2,12 +2,29 @@
 @import 'partials/colors.scss';
 @import 'partials/reset.scss';
 
-.navbar{
+#header {
 	background: #1a1a1a;
-	clear: right;
-	position: relative;
-	height: 115px;
-	width: 100%;
+    float: left;
+    width: 100%;
+	#nav {
+		position: relative;
+		height: 115px;
+		float: right;
+		display: inline;
+		li {
+			font: 25px Lora;
+			color: #e68900;
+			margin: 30px 10px 0px 10px;
+			padding: 10px;
+			background: #666666;
+			border-radius: 15px;
+			float: left;
+			a { text-decoration: none; }
+		}
+		.noliststyle {
+			list-style: none;
+		}
+	}
 }
 
 .websitename {
@@ -24,19 +41,6 @@
 
 .navfloatright {
 	float: right;
-}
-
-.navbuttons {
-	font: 25px Lora;
-	color: #e68900;
-	margin: 30px 10px 0px 10px;
-	padding: 10px;
-	background: #666666;
-	border-radius: 15px;
-}
-
-.noliststyle {
-	list-style: none;
 }
 
 .showcase {
