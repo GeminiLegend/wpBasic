@@ -1,11 +1,6 @@
 <?php
 
-// $name = 'Name'; variable
-// echo $name; 
-// var_dump($name);
-// die("");
-// arrays:print_r
-// custom debbuger kint
+require 'framework/menus.php';
 
 define('BASE', get_bloginfo('template_directory'));
-die(BASE);
+

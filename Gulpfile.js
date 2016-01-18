@@ -25,7 +25,7 @@ gulp.task('serve', ['sass'], function(){
     });
 
     gulp.watch(paths.sass, ['sass']);
-    gulp.watch(['./*.php', paths.sass, paths.scripts]).on('change', browserSync.reload);
+    //gulp.watch(['./*.php', paths.sass, paths.scripts]).on('change', browserSync.reload);
 });
 
 gulp.task('default', ['serve']);

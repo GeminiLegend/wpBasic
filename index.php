@@ -16,10 +16,19 @@
 </head>
 
 <body>
-	<div>
-		<div class='navbar'>
-			<ul class='noliststyle'>
-				<a href="#"><li class='websitename'>XDesign</li></a>
+	<div class='wrapper'> 
+		<div id='header'>
+			<a id='logo' href="#">
+				<h1 class='websitename'>XDesign</h1>
+			</a>
+			<?php 
+				$args =  array(
+					'theme_location' => 'nav-menu',
+
+				);
+				wp_nav_menu($args);
+			?>
+			<ul class=' noliststyle'>
 				<a href="#"><li class='navfloatright navbuttons'>Bio</li></a>
 				<a href="#"><li class='navfloatright navbuttons'>Resume</li></a>
 				<a href="#"><li class='navfloatright navbuttons'>Contact</li></a>
