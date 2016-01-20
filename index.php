@@ -2,17 +2,10 @@
 
 <html lang="en">
 <head>
-	<script type="text/javascript" src="js/vendors/jquery/dist/jquery.js"></script>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-	<link rel="stylesheet" href="js/vendors/nivo-slider/nivo-slider.css" type="text/css" />
-	<script src="js/vendors/nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		$(window).load(function() {
-		    $('#slider').nivoSlider();
-		});
-</script>
 	<meta charset="UTF-8">
 	<title>MyWebsite</title>
+	<?php wp_head(); ?>
 </head>
 
 <body>
@@ -45,6 +38,6 @@
 			</ul>
 		</div>
 	</div>
-	
+	<?php wp_footer(); ?>
 </body>
 </html>
