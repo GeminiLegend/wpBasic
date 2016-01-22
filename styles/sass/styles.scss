@@ -30,7 +30,7 @@
 .websitename {
 	float: left;
     background: #666666;
-    border-radius: 0px 15px 15px 15px;
+    border-radius: 0px 15px 15px 0px;
     margin: 0px;
 	display: inline;
 	font: bold 50px Lora;
@@ -47,7 +47,7 @@
 	display: block;
 	clear: left;
 	background: #000000;
-	height: 625px;
+	height: 645px;
 	& .showcasehead {
 		color: #e68900;
 		font: 35px Lora;
@@ -58,7 +58,7 @@
 #slider {
 	float: right;
 	width: 50%;
-	height: 0%;
+	height: 50%;
 	margin: 50px 0 0 20px;
 }
 
@@ -68,14 +68,41 @@
 	padding: 20px 0px 30px 100px;
 }
 
-/*.showcase {
-	font: 35px Lora;
-	color: #cccccc;
+.page > .wrapper {
+	background: #000000;
+	display: inline-block;
+	height: 645px;
+	width: 100%;
+	h1 {
+		color: #e68900;
+		font: 50px Lora;
+		padding: 35px 10px 10px 50px;
+		text-decoration: underline;
+	}
+	p {
+		color: #e68900;
+		font: 20px Lora;
+		padding: 35px 10px 10px 80px;
+		line-height: 2
+	}
 }
-*/
-
-/*.showcase {
-	font: 15px Lora;
-	color: #e68900;
+.blog > .wrapper {
+	background: #000000;
+	display: inline-block;
+	height: 645px;
+	width: 100%;
+	h1 {
+		color: #e68900;
+		font: 50px Lora;
+		padding: 35px 10px 10px 50px;
+		text-decoration: underline;
+	}
+	ul { 
+		list-style: none;
+		li {
+			color: #e68900;
+			font: 20px Lora;
+			padding: 35px 10px 10px 80px;
+		}
+	}
 }
-*/

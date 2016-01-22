@@ -80,7 +80,7 @@ table {
 .websitename {
   float: left;
   background: #666666;
-  border-radius: 0px 15px 15px 15px;
+  border-radius: 0px 15px 15px 0px;
   margin: 0px;
   display: inline;
   font: bold 50px Lora;
@@ -95,7 +95,7 @@ table {
   display: block;
   clear: left;
   background: #000000;
-  height: 625px; }
+  height: 645px; }
   .showcase .showcasehead {
     color: #e68900;
     font: 35px Lora;
@@ -104,7 +104,7 @@ table {
 #slider {
   float: right;
   width: 50%;
-  height: 0%;
+  height: 50%;
   margin: 50px 0 0 20px; }
 
 .showcasetext {
@@ -112,13 +112,35 @@ table {
   font: 15px Lora;
   padding: 20px 0px 30px 100px; }
 
-/*.showcase {
-	font: 35px Lora;
-	color: #cccccc;
-}
-*/
-/*.showcase {
-	font: 15px Lora;
-	color: #e68900;
-}
-*/
+.page > .wrapper {
+  background: #000000;
+  display: inline-block;
+  height: 645px;
+  width: 100%; }
+  .page > .wrapper h1 {
+    color: #e68900;
+    font: 50px Lora;
+    padding: 35px 10px 10px 50px;
+    text-decoration: underline; }
+  .page > .wrapper p {
+    color: #e68900;
+    font: 20px Lora;
+    padding: 35px 10px 10px 80px;
+    line-height: 2; }
+
+.blog > .wrapper {
+  background: #000000;
+  display: inline-block;
+  height: 645px;
+  width: 100%; }
+  .blog > .wrapper h1 {
+    color: #e68900;
+    font: 50px Lora;
+    padding: 35px 10px 10px 50px;
+    text-decoration: underline; }
+  .blog > .wrapper ul {
+    list-style: none; }
+    .blog > .wrapper ul li {
+      color: #e68900;
+      font: 20px Lora;
+      padding: 35px 10px 10px 80px; }

@@ -20,8 +20,8 @@ gulp.task('sass', function () {
 
 gulp.task('serve', ['sass'], function(){
   browserSync.init({
-        server: "./"
-        //proxy: 'http://timsautoupholstery.com'
+        // server: "./"
+        proxy: 'http://xdesign.com'
     });
 
     gulp.watch(paths.sass, ['sass']);
