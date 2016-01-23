@@ -55,6 +55,9 @@ table {
 .noliststyle {
   list-style: none; }
 
+body {
+  background: #000000; }
+
 #header {
   background: #1a1a1a;
   float: left;
@@ -112,17 +115,17 @@ table {
   font: 15px Lora;
   padding: 20px 0px 30px 100px; }
 
-.page > .wrapper {
+.page-id-2 > .wrapper {
   background: #000000;
   display: inline-block;
   height: 645px;
   width: 100%; }
-  .page > .wrapper h1 {
+  .page-id-2 > .wrapper h1 {
     color: #e68900;
     font: 50px Lora;
     padding: 35px 10px 10px 50px;
     text-decoration: underline; }
-  .page > .wrapper p {
+  .page-id-2 > .wrapper p {
     color: #e68900;
     font: 20px Lora;
     padding: 35px 10px 10px 80px;
@@ -144,3 +147,29 @@ table {
       color: #e68900;
       font: 20px Lora;
       padding: 35px 10px 10px 80px; }
+
+.page-id-47 > .wrapper {
+  height: 645px;
+  width: 98%;
+  margin: 0 auto; }
+  .page-id-47 > .wrapper h1 {
+    color: #e68900;
+    font: 50px Lora;
+    text-decoration: underline;
+    padding: 30px 0px 50px 30px; }
+  .page-id-47 > .wrapper #form-messages {
+    margin: 10px auto; }
+    .page-id-47 > .wrapper #form-messages.success {
+      color: green;
+      font: 30px Lora; }
+    .page-id-47 > .wrapper #form-messages.error {
+      color: red; }
+  .page-id-47 > .wrapper form {
+    color: #e68900; }
+    .page-id-47 > .wrapper form p {
+      padding: 0 0 10px 80px; }
+      .page-id-47 > .wrapper form p #submit {
+        margin: 10px 20px 10px 20px; }
+    .page-id-47 > .wrapper form h3 {
+      font: 20px Lora;
+      padding: 0 0 10px 80px; }

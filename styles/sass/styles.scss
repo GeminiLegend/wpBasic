@@ -2,6 +2,8 @@
 @import 'partials/colors.scss';
 @import 'partials/reset.scss';
 
+body { background: #000000; }
+
 #header {
 	background: #1a1a1a;
     float: left;
@@ -68,7 +70,7 @@
 	padding: 20px 0px 30px 100px;
 }
 
-.page > .wrapper {
+.page-id-2 > .wrapper {
 	background: #000000;
 	display: inline-block;
 	height: 645px;
@@ -103,6 +105,41 @@
 			color: #e68900;
 			font: 20px Lora;
 			padding: 35px 10px 10px 80px;
+		}
+	}
+}
+
+.page-id-47 > .wrapper {
+	height: 645px;
+	width: 98%;
+	margin: 0 auto;
+	h1 {
+	color: #e68900;
+	font: 50px Lora;
+	text-decoration: underline;
+	padding: 30px 0px 50px 30px;
+	}
+
+	#form-messages {
+	margin: 10px auto;
+		&.success { 
+			color: green;
+			font: 30px Lora; 
+		}
+		&.error { color: red; }
+	}
+
+	form {
+	color: #e68900;
+		p {
+		padding: 0 0 10px 80px;
+			#submit {
+				margin: 10px 20px 10px 20px;
+			}
+		}
+		h3 {
+		font: 20px Lora;
+		padding: 0 0 10px 80px;
 		}
 	}
 }
