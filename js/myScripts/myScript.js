@@ -3,15 +3,16 @@ jQuery( document ).ready(function( $ ) {
         $('#slider').nivoSlider();
     });
 
-	var form = $('#email-form');
-	var formMessages = $('#form-messages');
+var form = $('#email-form');
+var formMessages = $('#form-messages');
 
-	$(form).submit(function(evt){
-		evt.preventDefault();
-	});
+$(form).submit(function(evt){
+	evt.preventDefault();
+});
 
-	var formData = $(form).serialize();
+var formData = $(form).serialize();
 
+$('#submit').click(function() {
 	var contactPromise = $.ajax({
 		type: 'POST',
 		url: $(form).attr('action'),
@@ -27,6 +28,16 @@ jQuery( document ).ready(function( $ ) {
 	    $('#name').val('');
 	    $('#email').val('');
 	    $('#message').val('');
-	});
+		
+	    $(form).fadeOut(300);
+	    
+	});	
 });
+
+$('#noneoftheabove').click(function() {
+		$('.answer').removeAttr('checked');
+	});
+
+});
+
 

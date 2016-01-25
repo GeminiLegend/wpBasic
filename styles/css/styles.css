@@ -158,10 +158,12 @@ body {
     text-decoration: underline;
     padding: 30px 0px 50px 30px; }
   .page-id-47 > .wrapper #form-messages {
-    margin: 10px auto; }
+    margin: 10px auto;
+    padding: 0 0 0 30px; }
     .page-id-47 > .wrapper #form-messages.success {
       color: green;
-      font: 30px Lora; }
+      font: 30px Lora;
+      line-height: 2; }
     .page-id-47 > .wrapper #form-messages.error {
       color: red; }
   .page-id-47 > .wrapper form {
@@ -173,3 +175,17 @@ body {
     .page-id-47 > .wrapper form h3 {
       font: 20px Lora;
       padding: 0 0 10px 80px; }
+
+.page-id-66 > .wrapper > form h1 {
+  color: #e68900;
+  font: 30px Lora; }
+
+.page-id-66 > .wrapper > form p {
+  float: left;
+  color: #e68900;
+  width: 100%;
+  margin: 10px 0 0 30px;
+  font: 15px Lora; }
+  .page-id-66 > .wrapper > form p input {
+    float: left;
+    margin: 5px 0 0 0; }

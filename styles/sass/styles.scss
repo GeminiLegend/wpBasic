@@ -122,9 +122,11 @@ body { background: #000000; }
 
 	#form-messages {
 	margin: 10px auto;
+	padding: 0 0 0 30px;
 		&.success { 
 			color: green;
 			font: 30px Lora; 
+			line-height: 2;
 		}
 		&.error { color: red; }
 	}
@@ -142,4 +144,21 @@ body { background: #000000; }
 		padding: 0 0 10px 80px;
 		}
 	}
+}
+.page-id-66 > .wrapper > form {
+		h1 { 
+			color: #e68900; 
+			font: 30px Lora;
+		}
+		p {
+			float: left;
+			color: #e68900;
+			width: 100%;
+			margin: 10px 0 0 30px;
+			font: 15px Lora;
+			input {
+				float: left;
+				margin: 5px 0 0 0;
+			}
+		}
 }
