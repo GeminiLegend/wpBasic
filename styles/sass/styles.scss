@@ -146,19 +146,70 @@ body { background: #000000; }
 	}
 }
 .page-id-66 > .wrapper > form {
-		h1 { 
-			color: #e68900; 
-			font: 30px Lora;
-		}
-		p {
+	h1 { 
+		color: #e68900; 
+		font: 30px Lora;
+	}
+	p {
+		float: left;
+		color: #e68900;
+		width: 100%;
+		margin: 10px 0 0 30px;
+		font: 15px Lora;
+		input {
 			float: left;
-			color: #e68900;
-			width: 100%;
-			margin: 10px 0 0 30px;
-			font: 15px Lora;
-			input {
-				float: left;
-				margin: 5px 0 0 0;
-			}
+			margin: 5px 0 0 0;
 		}
+	}
 }
+
+.page-id-87 > .wrapper > #zippoptamus {
+	h1 {
+		color: #e68900;
+		font: 30px Lora;
+		padding: 10px 0 20px 30px;
+	}
+	p {
+		margin: 10px 40px;
+		&.hidden {
+			visibility: hidden;
+		}
+	}
+}
+.page-id-101 > .wrapper > #zillow {
+	color: #e68900;
+	p {
+		float: left;
+		margin: 10px 30px;
+		width: 100%;
+		&.hidden {
+			visibility: hidden;
+		}
+	}
+}
+.page-id-109 > .wrapper {
+	background: white;
+	#question {
+	float: left;
+
+		li a {
+			display: block;
+		    color: #e68900;
+		    border: 2px solid;
+		    border-radius: 20px;
+		    margin: 20px;
+		    text-align: center;
+		    font-size: 30px;
+		    padding: 10px;
+		    &:hover {
+		    	cursor: pointer;
+		    	background: #e68900;
+		    	color: #fff;
+		    }
+		}
+	}
+	#RadioForm {
+		display: none;
+	}
+}
+	
