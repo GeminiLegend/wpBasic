@@ -16,9 +16,11 @@
 	click 'selector'
 
 	*/
-	$('document').ready(function( $ ) {
-		var inputs = $('#RadioForm input[type=radio]');
+	function createButtonsForInputs (inputs, buttonList) {
 		inputs.each(function(idx, elem){
+			inputs.addClass(function(idx){
+				return 'input-' + idx;
+			});
 			var text = elem.value;
 			
 			var anchor   = $('<a />', {
@@ -30,21 +32,25 @@
 
 			li.append(anchor);
 
-			$('#question').append(li);
+			buttonList.append(li);
 		});
 
 		$('li a').on('click', checkFormInput);
-	});
 
-	function checkFormInput (evt) {
-		evt.preventDefault();
-		var idx      = jQuery(evt.target).data('idx');
-		var selector = '#input-' + idx;
+		function checkFormInput (evt) {
+			evt.preventDefault();
+			var idx      = jQuery(evt.target).data('idx');
+			var selector = '.input-' + idx;
 
-		$(selector).click();
-	}
+			$(selector).click();
+		}
 
+	};
+
+	$(document).ready(function(){
+		createButtonsForInputs($('#RadioForm input[type=radio]'), $('#question'));
+	})
 })(jQuery);
 /*
-
+turnt his code into a method
 */
