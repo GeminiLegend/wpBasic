@@ -212,4 +212,30 @@ body { background: #000000; }
 		display: none;
 	}
 }
-	
+.page-id-133 {
+	width: 100%;
+	position: relative;
+
+	#header {
+		display: none;
+	}
+	.wrapper, #container {
+		width: 100%;
+		position: relative;
+		height: 700px;
+	}
+	.wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+		h1 {
+			display: none;
+		}
+
+		#animation {
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			background: green;
+		}
+	}
+}

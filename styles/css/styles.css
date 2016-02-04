@@ -228,3 +228,23 @@ body {
         color: #fff; }
   .page-id-109 > .wrapper #RadioForm {
     display: none; }
+
+.page-id-133 {
+  width: 100%;
+  position: relative; }
+  .page-id-133 #header {
+    display: none; }
+  .page-id-133 .wrapper, .page-id-133 #container {
+    width: 100%;
+    position: relative;
+    height: 700px; }
+  .page-id-133 .wrapper {
+    max-width: 1000px;
+    margin: 0 auto; }
+    .page-id-133 .wrapper h1 {
+      display: none; }
+    .page-id-133 .wrapper #animation {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      background: green; }
