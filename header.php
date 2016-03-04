@@ -9,7 +9,7 @@
 <body  <?php body_class(); ?>>
 	<div id='header'>
 		<a id='logo' href='<?php bloginfo('url'); ?>'>
-			<h1 class='websitename'>XDesign</h1>
+			<h1 class='websitename'></h1>
 		</a>
 		<?php 
 			$args =  array(

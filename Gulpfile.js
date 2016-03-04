@@ -21,7 +21,7 @@ gulp.task('sass', function () {
 gulp.task('serve', ['sass'], function(){
   browserSync.init({
         // server: "./"
-        proxy: 'http://xdesign.com'
+        proxy: 'http://talposmedia.com'
     });
 
     gulp.watch(paths.sass, ['sass']);
